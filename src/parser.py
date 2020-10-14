@@ -12,5 +12,5 @@ def parse_anchors_from_line(line,out_file):
         for regex_match in line_matches:
             items = list(filter(None,regex_match))
             for index,item in enumerate(items):
-                out_file.write(f"{item}{',' if index != len(items)-1 else ''}")
+                out_file.write(f"\"{item}\"{',' if index != len(items)-1 else ''}")
             out_file.write('\n')
