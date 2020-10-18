@@ -46,6 +46,7 @@ jupyterlab==2.2.8
 jupyterlab-pygments==0.1.2
 jupyterlab-server==1.2.0
 lxml==4.5.2
+majka==0.8
 MarkupSafe==1.1.1
 mistune==0.8.4
 modules==1.0.0
