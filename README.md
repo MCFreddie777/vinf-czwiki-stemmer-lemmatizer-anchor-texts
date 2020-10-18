@@ -4,8 +4,8 @@
 
 ## Prerequisites 
 
-- python
-- pip
+- [python >= 3.8](https://www.python.org/downloads/) 
+- [pip](https://pypi.org/project/pip/)
 
 ## Installation
 
