@@ -59,7 +59,12 @@ TBA: prehľad súčasných riešení daného problému - existujúci softvér, a
 
 ## Vypracovanie 
 
+==== Vypracovanie ====
+
 TBA: popis riešenia, použitý softvér, použité existujúce riešenia, popis problémov ktoré sa vyskytli, popis prác na projekte (1 strana)
+
+Vypracované riešenie je dostupné na 
+[https://github.com/MCFreddie777/vinf-czwiki-stemmer-lemmatizer-anchor-texts](https://github.com/MCFreddie777/vinf-czwiki-stemmer-lemmatizer-anchor-texts)
 
 ## Dataset
 
@@ -112,4 +117,22 @@ vlévá do bývalého ramene řeky [[Morava (řeka)|Morava]].
 TBA: vyhodnotenie slovné subjektívne na nejakých konkrétnych príkladoch. Vo vačšine projektov aj vyhodnotenie pomocou presnosti a pokrytia (precision a recall) (0,5-1 strana)
 
 ## Použitie
-TBA: spustenie, inštalácia softvéru, použitie softvéru. (0,5-1 strana)
+
+### Prerekvizity
+
+- [python >= 3.8](https://www.python.org/downloads/) 
+- [pip](https://pypi.org/project/pip/)
+
+### Inštalácia a spustenie 
+
+1. Nainštalujte závislosti použitím   
+
+    ```
+    pip install -r ./requirements.txt
+    ```
+    
+1. Spustite Jupyter Notebook
+  
+    ```
+    jupyter notebook
+    ```
