@@ -6,19 +6,26 @@
 
 - [python >= 3.8](https://www.python.org/downloads/) 
 - [pip](https://pypi.org/project/pip/)
+- [pipenv](https://github.com/pypa/pipenv)
 
 ## Installation
 
 1. First, install all dependencies using 
 
-    ```bash
-    pip install -r ./requirements.txt
+    ```shell script
+    pipenv install
     ```
    
+1. Open pip environment shell
+   
+   ```shell script
+   pipenv shell
+   ```   
+   
 1. Run the Jupyter Notebook
-    
-    ```bash
-   jupyter notebook
-    ``` 
+  
+   ```shell script
+   pipenv run jupyter notebook
+   ``` 
 
 
