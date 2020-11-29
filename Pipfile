@@ -14,6 +14,7 @@ pandas = "*"
 nltk = "*"
 jupyter = "*"
 stop-words = "*"
+tabletext = "*"
 
 [requires]
 python_version = "3.8"
